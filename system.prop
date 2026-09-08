@@ -57,3 +57,17 @@ ro.transsion.physical.backlight.optimization=1
 
 # Graphics
 debug.renderengine.blur_algorithm=kawase2
+debug.sf.auto_latch_unsignaled=0
+debug.sf.disable_client_composition_cache=0
+debug.sf.early.app.duration=16600000
+debug.sf.earlyGl.app.duration=16600000
+debug.sf.earlyGl.sf.duration=16600000
+debug.sf.early.sf.duration=16600000
+debug.sf.enable_adpf_cpu_hint=true
+debug.sf.enable_gl_backpressure=0
+debug.sf.hwc.min.duration=2000000
+debug.sf.late.app.duration=16600000
+debug.sf.late.sf.duration=10500000
+debug.sf.set_binder_thread_rt=1
+debug.sf.use_phase_offsets_as_durations=1
+ro.surface_flinger.enable_sdr_dimming=true
