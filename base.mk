@@ -42,6 +42,14 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.usb.config=adb \
     ro.cust.cdrom=/dev/null
 
+# DT2W for X505X
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/idc/goodix-ts.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/goodix-ts.kl \
+
+# Magnetic Cover Wake for X505X
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/idc/hall-switch-input.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/hall-switch-input.kl \
+
 # VNDK config files
 PRODUCT_COPY_FILES += \
     device/phh/treble/vndk-detect:system/bin/vndk-detect \
