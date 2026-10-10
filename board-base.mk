@@ -1,4 +1,5 @@
 TARGET_SYSTEM_PROP := device/phh/treble/system.prop $(TARGET_SYSTEM_PROP)
+TARGET_PRODUCT_PROP := device/phh/treble/product.prop $(TARGET_PRODUCT_PROP)
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/phh/treble/bluetooth/include
